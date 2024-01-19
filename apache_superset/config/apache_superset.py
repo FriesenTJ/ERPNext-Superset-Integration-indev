@@ -11,7 +11,13 @@ def get_data():
                     "name": "cash purchase",
                     "label": "Cash Purchase Example",
                     "onboard": 1,
-                }
+                },
+                {
+                    "type": "doctype",
+                    "name": "item purchase",
+                    "label": "Item Purchase Example",
+                    "onboard": 2,
+                },
             ]
         },
     ]
