@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include apache_superset *.css
+recursive-include apache_superset *.csv
+recursive-include apache_superset *.html
+recursive-include apache_superset *.ico
+recursive-include apache_superset *.js
+recursive-include apache_superset *.json
+recursive-include apache_superset *.md
+recursive-include apache_superset *.png
+recursive-include apache_superset *.py
+recursive-include apache_superset *.svg
+recursive-include apache_superset *.txt
+recursive-exclude apache_superset *.pyc
