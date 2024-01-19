@@ -100,7 +100,7 @@
   {
    "fieldname": "sales_order",
    "fieldtype": "Table",
-   "label": "cash purchase",
+   "label": "Cash Purchase",
    "options": "sales order child table"
   },
   {

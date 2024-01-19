@@ -17,8 +17,8 @@ def get_data():
                     "name": "item purchase",
                     "label": "Item Purchase Example",
                     "onboard": 2,
-                },
+                }
             ]
-        },
+        }
     ]
     return config
