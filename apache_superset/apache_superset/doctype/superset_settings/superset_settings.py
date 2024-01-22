@@ -3,8 +3,8 @@
 # For license information, please see license.txt
 
 from __future__ import unicode_literals
-import frappe
+import frappe,json
 from frappe.model.document import Document
 
-class itempurchase(Document):
+class supersetsettings(Document):
 	pass
