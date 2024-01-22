@@ -19,6 +19,17 @@ def get_data():
                     "onboard": 2,
                 }
             ]
+        },
+        {
+            "label": _("Apache Setup"),
+            "items": [
+                {
+                    "type": "doctype",
+                    "name": "Superset Settings",
+                    "label": "Superset Settings",
+                    "onboard": 1,
+                }
+            ]
         }
     ]
     return config

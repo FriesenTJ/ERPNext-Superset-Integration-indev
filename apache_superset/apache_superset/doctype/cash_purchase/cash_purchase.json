@@ -5,188 +5,45 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "supplier",
-  "address",
-  "description",
-  "cancelled",
-  "date",
-  "column_break_5",
-  "cp_no",
-  "agent",
-  "terms",
-  "ref_1",
-  "ext_no",
-  "section_break_12",
-  "sales_order",
-  "section_break_14",
-  "local_net_total",
-  "deposit_amount",
-  "net_total",
-  "column_break_20",
-  "landing_cost_1",
-  "landing_cost_2",
-  "payment_paid_section",
-  "payment_by",
-  "column_break_23",
-  "chq_no",
-  "column_break_25",
-  "payment_project",
-  "column_break_27",
-  "bank_charges",
-  "column_break_29",
-  "amount"
+  "authorization_header",
+  "username",
+  "password",
+  "url"
  ],
  "fields": [
   {
-   "fieldname": "supplier",
+   "fieldname": "authorization_header",
    "fieldtype": "Data",
-   "label": "supplier"
+   "in_list_view": 1,
+   "label": "Authorization Header",
+   "reqd": 1
   },
   {
-   "fieldname": "address",
+   "fieldname": "username",
    "fieldtype": "Data",
-   "label": "address"
+   "in_list_view": 1,
+   "label": "Username",
+   "reqd": 1
   },
   {
-   "fieldname": "description",
+   "fieldname": "password",
    "fieldtype": "Data",
-   "label": "description"
+   "in_list_view": 1,
+   "label": "Password",
+   "reqd": 1
   },
   {
-   "default": "0",
-   "fieldname": "cancelled",
-   "fieldtype": "Check",
-   "label": "cancelled"
-  },
-  {
-   "fieldname": "date",
+   "fieldname": "url",
    "fieldtype": "Data",
-   "label": "date"
-  },
-  {
-   "fieldname": "column_break_5",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "cp_no",
-   "fieldtype": "Data",
-   "label": "cp no",
-   "unique": 1
-  },
-  {
-   "fieldname": "agent",
-   "fieldtype": "Data",
-   "label": "agent"
-  },
-  {
-   "fieldname": "terms",
-   "fieldtype": "Data",
-   "label": "terms"
-  },
-  {
-   "fieldname": "ref_1",
-   "fieldtype": "Data",
-   "label": "ref 1"
-  },
-  {
-   "fieldname": "ext_no",
-   "fieldtype": "Data",
-   "label": "ext no"
-  },
-  {
-   "fieldname": "section_break_12",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "sales_order",
-   "fieldtype": "Table",
-   "label": "Cash Purchase",
-   "options": "sales order child table"
-  },
-  {
-   "fieldname": "section_break_14",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "local_net_total",
-   "fieldtype": "Data",
-   "label": "local net total"
-  },
-  {
-   "fieldname": "deposit_amount",
-   "fieldtype": "Data",
-   "label": "deposit amount"
-  },
-  {
-   "fieldname": "net_total",
-   "fieldtype": "Data",
-   "label": "net total"
-  },
-  {
-   "fieldname": "column_break_20",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "landing_cost_1",
-   "fieldtype": "Data",
-   "label": "landing cost 1"
-  },
-  {
-   "fieldname": "landing_cost_2",
-   "fieldtype": "Data",
-   "label": "landing cost 2"
-  },
-  {
-   "fieldname": "payment_paid_section",
-   "fieldtype": "Section Break",
-   "label": "payment paid"
-  },
-  {
-   "fieldname": "payment_by",
-   "fieldtype": "Data",
-   "label": "payment by"
-  },
-  {
-   "fieldname": "column_break_23",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "chq_no",
-   "fieldtype": "Data",
-   "label": "chq no"
-  },
-  {
-   "fieldname": "column_break_25",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "payment_project",
-   "fieldtype": "Data",
-   "label": "payment project"
-  },
-  {
-   "fieldname": "column_break_27",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "bank_charges",
-   "fieldtype": "Data",
-   "label": "bank charges"
-  },
-  {
-   "fieldname": "column_break_29",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "amount",
-   "fieldtype": "Data",
-   "label": "amount"
+   "in_list_view": 1,
+   "label": "URL",
+   "reqd": 1
   }
  ],
  "modified": "2023-02-18 00:16:50.010728",
  "modified_by": "Administrator",
  "module": "Apache Superset",
- "name": "Cash Purchase",
+ "name": "Superset Settings",
  "owner": "Administrator",
  "permissions": [
   {
