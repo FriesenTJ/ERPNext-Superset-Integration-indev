@@ -6,5 +6,5 @@ from __future__ import unicode_literals
 import frappe,json
 from frappe.model.document import Document
 
-class supersetsettings(Document):
+class SupersetSettings(Document):
 	pass
