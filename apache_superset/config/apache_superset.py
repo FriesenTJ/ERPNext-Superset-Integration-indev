@@ -14,8 +14,8 @@ def get_data():
                 },
                 {
                     "type": "doctype",
-                    "name": "Code Debug",
-                    "label": "Superset Debug",
+                    "name": "Superset Debug",
+                    "label": "Code Debug",
                     "onboard": 1,
                 }
             ]
