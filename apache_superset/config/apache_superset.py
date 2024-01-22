@@ -11,6 +11,12 @@ def get_data():
                     "name": "Superset Settings",
                     "label": "Superset Settings",
                     "onboard": 1,
+                },
+                {
+                    "type": "doctype",
+                    "name": "Code Debug",
+                    "label": "Superset Debug",
+                    "onboard": 1,
                 }
             ]
         }
