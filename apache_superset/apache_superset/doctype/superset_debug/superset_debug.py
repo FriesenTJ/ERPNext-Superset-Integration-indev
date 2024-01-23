@@ -27,6 +27,18 @@ def button2Clicked():
 def button3Clicked(doc):
 	txt = "I am Groot"
 
-	doc.update({
-		'text_field_1': txt
-	})
+	try:
+		print(doc)
+		doc.update({
+			'text_field_1': txt
+		})
+	finally:
+		pass
+
+	try:
+		thisDoc = frappe.get_doc("Superset Debug")
+		thisDoc.update({
+			'text_field_1': txt
+		})
+	finally:
+		pass
