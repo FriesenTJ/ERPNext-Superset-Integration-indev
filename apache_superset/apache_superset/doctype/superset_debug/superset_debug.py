@@ -33,3 +33,15 @@ def button3Clicked(doc):
 		'text_field_1': txt
 	})
 	thisDoc.save()
+
+def button4Clicked():
+	import pymysql
+
+	try:
+		conn = pymysql.connect(host='mariadb', port=3306, user='root', passwd='56NgpXiInguR7QHw', db='_89e3383a650fbc09')
+		print("Database connection successful.")
+	except Exception as e:
+		print("Failed to connect to the database. Error: ", str(e))
+	finally:
+		if conn:
+			conn.close()
