@@ -5,7 +5,6 @@
     "editable_grid": 1,
     "engine": "InnoDB",
     "field_order": [
-        "text_field_heading",
         "text_field_start_section_break",
         "text_field_1",
         "text_field_2",
@@ -14,8 +13,6 @@
         "text_field_4",
         "text_field_5",
         "text_field_6",
-        "text_field_end_section_break",
-        "button_heading",
         "button_start_section_break",
         "button_1",
         "button_column_break_1",
@@ -24,23 +21,14 @@
         "button_3",
         "button_column_break_3",
         "button_4",
-        "button_end_section_break",
-        "output_heading",
+        "output_text_start_section_break",
         "output_text"
     ],
     "fields": [
         {
-            "bold": 1,
-            "fieldname": "text_field_heading",
-            "fieldtype": "HTML",
-            "label": "Text Field Heading",
-            "options": "<h1>Input Fields</h1>",
-            "read_only": 1
-        },
-        {
             "fieldname": "text_field_start_section_break",
             "fieldtype": "Section Break",
-            "label": "Text Field Start Section"
+            "label": "Text Fields"
         },
         {
             "fieldname": "text_field_1",
@@ -63,7 +51,7 @@
         {
             "fieldname": "text_field_column_break",
             "fieldtype": "Column Break",
-            "label": "Text Input Column Break"
+            "label": ""
         },
         {
             "fieldname": "text_field_4",
@@ -84,22 +72,9 @@
             "label": "Text Field 6"
         },
         {
-            "fieldname": "text_field_end_section_break",
-            "fieldtype": "Section Break",
-            "label": "Text Field End Section"
-        },
-        {
-            "bold": 1,
-            "fieldname": "button_heading",
-            "fieldtype": "HTML",
-            "label": "Button Heading",
-            "options": "<h1>Buttons</h1>",
-            "read_only": 1
-        },
-        {
             "fieldname": "button_start_section_break",
             "fieldtype": "Section Break",
-            "label": "Button Start Section"
+            "label": "Buttons"
         },
         {
             "fieldname": "button_1",
@@ -109,7 +84,7 @@
         {
             "fieldname": "button_column_break_1",
             "fieldtype": "Column Break",
-            "label": "Button Column Break 1"
+            "label": ""
         },
         {
             "fieldname": "button_2",
@@ -119,7 +94,7 @@
         {
             "fieldname": "button_column_break_2",
             "fieldtype": "Column Break",
-            "label": "Button Column Break 2"
+            "label": ""
         },
         {
             "fieldname": "button_3",
@@ -129,7 +104,7 @@
         {
             "fieldname": "button_column_break_3",
             "fieldtype": "Column Break",
-            "label": "Button Column Break 3"
+            "label": ""
         },
         {
             "fieldname": "button_4",
@@ -137,17 +112,9 @@
             "label": "Button 4"
         },
         {
-            "fieldname": "button_end_section_break",
+            "fieldname": "output_text_start_section_break",
             "fieldtype": "Section Break",
-            "label": "Button End Section"
-        },
-        {
-            "bold": 1,
-            "fieldname": "output_heading",
-            "fieldtype": "HTML",
-            "label": "Output Heading",
-            "options": "<h1>Text Output</h1>",
-            "read_only": 1
+            "label": "Output Text"
         },
         {
             "fieldname": "output_text",
