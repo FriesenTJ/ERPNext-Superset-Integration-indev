@@ -13,3 +13,12 @@ class SupersetDebug(Document):
 def button1Clicked(doc):
 	print("Hello")
 	print(doc)
+	
+@frappe.whitelist()
+def button2Clicked(doc):
+	settingsDoc = frappe.get_doc("Superset Settings")
+	print(settingsDoc)
+
+	name = settingsDoc.username
+	password = settingsDoc.password
+	print(name, password)
