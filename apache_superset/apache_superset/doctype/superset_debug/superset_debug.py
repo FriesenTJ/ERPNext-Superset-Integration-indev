@@ -32,13 +32,14 @@ def button3Clicked(doc):
 		doc.update({
 			'text_field_1': txt
 		})
-	finally:
+	except:
 		pass
 
 	try:
 		thisDoc = frappe.get_doc("Superset Debug")
+		print(thisDoc)
 		thisDoc.update({
 			'text_field_1': txt
 		})
-	finally:
+	except:
 		pass
