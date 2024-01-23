@@ -27,5 +27,6 @@ def button2Clicked():
 def button3Clicked(doc):
 	txt = "I am Groot"
 
-	doc.text_field_1 = txt
-	doc.save()
+	doc.update({
+		'text_field_1': txt
+	})
