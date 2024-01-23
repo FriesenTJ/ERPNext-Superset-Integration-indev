@@ -20,5 +20,16 @@ frappe.ui.form.on('Superset Debug', {
 				console.log(r.message)
 			},
 		})
+	},
+    button_3:function(frm){
+		frm.call({
+			method:"button3Clicked",
+			args:{
+				doc: frm.doc
+			},
+			callback:function(r){
+				console.log(r.message)
+			},
+		})
 	}
 });

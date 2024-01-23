@@ -22,3 +22,10 @@ def button2Clicked():
 	name = settingsDoc.username
 	password = settingsDoc.password
 	print(name, password)
+	
+@frappe.whitelist()
+def button3Clicked(doc):
+	txt = "I am Groot"
+
+	doc.text_field_1 = txt
+	doc.save()
