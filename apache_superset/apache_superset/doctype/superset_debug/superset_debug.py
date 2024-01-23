@@ -8,3 +8,8 @@ from frappe.model.document import Document
 
 class SupersetDebug(Document):
 	pass
+
+@frappe.whitelist()
+def button1Clicked(doc):
+	print("Hello")
+	print(doc)
