@@ -15,7 +15,7 @@ def button1Clicked(doc):
 	print(doc)
 	
 @frappe.whitelist()
-def button2Clicked(doc):
+def button2Clicked():
 	settingsDoc = frappe.get_doc("Superset Settings")
 	print(settingsDoc)
 
