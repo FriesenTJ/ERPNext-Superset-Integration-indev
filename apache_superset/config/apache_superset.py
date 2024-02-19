@@ -8,14 +8,14 @@ def get_data():
             "items": [
                 {
                     "type": "doctype",
-                    "name": "Superset Settings",
-                    "label": "Superset Settings",
+                    "name": "Superset Dashboard",
+                    "label": "Superset Dashboard",
                     "onboard": 1,
                 },
                 {
                     "type": "doctype",
-                    "name": "Superset Debug",
-                    "label": "Code Debug",
+                    "name": "Dashboard Settings",
+                    "label": "Dashboard Settings",
                     "onboard": 1,
                 }
             ]

@@ -6,5 +6,5 @@ from __future__ import unicode_literals
 # import frappe
 import unittest
 
-class TestSupersetSettings(unittest.TestCase):
+class TestSupersetDashboard(unittest.TestCase):
 	pass
