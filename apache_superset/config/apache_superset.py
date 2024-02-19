@@ -4,7 +4,7 @@ from frappe import _
 def get_data():
     config = [
         {
-            "label": _("Apache Setup"),
+            "label": _("Apache Dashboard"),
             "items": [
                 {
                     "type": "doctype",
